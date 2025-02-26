@@ -25,5 +25,9 @@ console.log(subLength("Johnny", "n"))
 
 function authenticate(username, password) {
     const passwordValue = password.value;
-    if (username === "asarej01" && password === "")
+    if (username === "asarej01" && password === "") {
+        console.log(`Enter password for ${password}`)
+    } else {
+        console.log ("Authenticated")
+    }
 }
